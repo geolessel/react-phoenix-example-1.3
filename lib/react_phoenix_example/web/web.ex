@@ -22,6 +22,8 @@ defmodule ReactPhoenixExample.Web do
       import Plug.Conn
       import ReactPhoenixExample.Web.Router.Helpers
       import ReactPhoenixExample.Web.Gettext
+
+      import ReactPhoenix.ServerSide
     end
   end
 
@@ -39,6 +41,8 @@ defmodule ReactPhoenixExample.Web do
       import ReactPhoenixExample.Web.Router.Helpers
       import ReactPhoenixExample.Web.ErrorHelpers
       import ReactPhoenixExample.Web.Gettext
+
+      import ReactPhoenix.ClientSide
     end
   end
 
