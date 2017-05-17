@@ -1,1 +1,2 @@
+<%= raw @html %>
 <%= ReactPhoenix.ClientSide.react_component("ReactPhoenixExample.Hello", %{rendering_type: "client-side"}) %>
