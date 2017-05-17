@@ -20,3 +20,9 @@ import "react-phoenix"
 // paths "./socket" or full ones "web/static/js/socket".
 
 // import socket from "./socket"
+
+import Hello from "./components/hello"
+
+window.ReactPhoenixExample = {
+  Hello
+}
