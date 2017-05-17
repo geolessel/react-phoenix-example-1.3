@@ -12,7 +12,11 @@ config :react_phoenix_example, ReactPhoenixExample.Web.Endpoint,
   code_reloader: true,
   check_origin: false,
   watchers: [node: ["node_modules/brunch/bin/brunch", "watch", "--stdin",
-                    cd: Path.expand("../assets", __DIR__)]]
+                    cd: Path.expand("../assets", __DIR__)],
+             node: ["assets/node_modules/babel-cli/bin/babel.js", "--watch",
+                     "assets/js/components",
+                     "--out-dir", "priv/static/js/components",
+                     "--presets=env,react"]]
 
 # ## SSL Support
 #
