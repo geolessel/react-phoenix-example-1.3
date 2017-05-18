@@ -19,7 +19,6 @@ config :logger, :console,
   metadata: [:request_id]
 
 config :react_phoenix,
-  react_stdio_path: Path.join(["assets", "node_modules", ".bin", "react-stdio"]),
   compiled_path: Path.join(["priv", "static", "js", "components"])
 
 # Import environment specific config. This must remain at the bottom

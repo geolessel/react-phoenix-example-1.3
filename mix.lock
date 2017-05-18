@@ -12,5 +12,5 @@
   "poolboy": {:hex, :poolboy, "1.5.1", "6b46163901cfd0a1b43d692657ed9d7e599853b3b21b95ae5ae0a777cf9b6ca8", [:rebar], []},
   "porcelain": {:hex, :porcelain, "2.0.3", "2d77b17d1f21fed875b8c5ecba72a01533db2013bd2e5e62c6d286c029150fdc", [:mix], []},
   "ranch": {:hex, :ranch, "1.3.2", "e4965a144dc9fbe70e5c077c65e73c57165416a901bd02ea899cfd95aa890986", [:rebar3], []},
-  "react_phoenix": {:hex, :react_phoenix, "0.4.0", "f388904ca6526afd6d6371240eb0ff5d1ce7137eaa9c19e60a7954795dbc5263", [:mix], [{:phoenix_html, "~> 2.9", [hex: :phoenix_html, optional: false]}, {:poison, "~> 2.2 or ~> 3.0", [hex: :poison, optional: false]}, {:std_json_io_2, "~> 0.2", [hex: :std_json_io_2, optional: false]}]},
+  "react_phoenix": {:hex, :react_phoenix, "0.4.1", "9717b99da9d56aeaa518b15473265ed10971f265b32565174f7a8883094c8958", [:mix], [{:phoenix_html, "~> 2.9", [hex: :phoenix_html, optional: false]}, {:poison, "~> 2.2 or ~> 3.0", [hex: :poison, optional: false]}, {:std_json_io_2, "~> 0.2", [hex: :std_json_io_2, optional: false]}]},
   "std_json_io_2": {:hex, :std_json_io_2, "0.2.0", "208ae14f548e662125136921269456e026c692535c1946b173fa7e4549f5aa23", [:mix], [{:fs, "~> 0.9.1", [hex: :fs, optional: false]}, {:poison, "~> 3.0", [hex: :poison, optional: false]}, {:poolboy, "~> 1.5.1", [hex: :poolboy, optional: false]}, {:porcelain, "~> 2.0.3", [hex: :porcelain, optional: false]}]}}
